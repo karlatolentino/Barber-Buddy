@@ -85,7 +85,7 @@ On the Barbers and Buddies index page, users are able to search for text that ma
 <img src="docs/screenshots/Screen Shot 2021-08-19 at 2.22.34 pm.png">
 <img src="docs/screenshots/Screen Shot 2021-08-19 at 11.09.28 am.png">
 <img src="docs/screenshots/Screen Shot 2021-08-19 at 11.14.24 am.png">
-<img src="docs/screenshots/Screen Shot 2021-08-19 at 11.14.30 am.png">
+<img src="docs/screenshots/Screen Shot 2021-08-19 at 2.37.24 pm.png">
 
 View more screenshots [here](docs/screenshots)
 
