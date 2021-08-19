@@ -120,7 +120,7 @@ As a Barber Client, I want to find a Barber who is down-to-earth and easily appr
 As a Barbershop owner, I want to promote healthy and positive topics of conversations between my barbers and their clients by attracting a specific demographic of people into my shop.
 
 ## Wireframes
-
+View Wireframes [here](docs/barber-buddy-wireframes.pdf).
 
 ## ERD
 
