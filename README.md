@@ -172,7 +172,7 @@ The Services model stores the service name and description that populates the ap
    - email :string
    - password :string
    - role :integer
-- Profiles Model
+   - Profiles Model
    - (Foreign Key) user_id :integer
    - pronouns :string
    - location :string
