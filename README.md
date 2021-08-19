@@ -120,7 +120,7 @@ As a Barbershop owner, I want to promote healthy and positive topics of conversa
 View Wireframes [here](docs/barber-buddy-wireframes.pdf)
 
 ## ERD
-
+<img src="docs/barber-buddy-ERD.jpeg">
 
 ## Abstractions
 
