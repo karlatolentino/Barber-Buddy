@@ -15,7 +15,7 @@
 - [ERD](#erd)
 - [Abstractions](#abstractions)
 - [Third Party Services](#third-party-services)
-- [Active Record Associations](#active-record-associations)
+- [Project Models and Database Relations](#project-models-and-database-relations)
 - [Database Relations](#database-relations)
 - [Database Schema Design](#database-schema-design)
 - [Project Management](#project-management)
@@ -140,13 +140,31 @@ Heroku is a cloud platform as a service that supports many different programming
 
 Amazon Simple Storage Service (Amazon s3) is designed to simplify internet computing. It is used to collect and store data anywhere and anytime on the internet. Developers are allowed access to identical data storage infrastructure that is used by Amazon that is highly scalable, fast and reliable. Amazon s3 have buckets that are containers for objects stored on its service, and is used to identify accounts responsible for data and storage transfer charges. These objects have a key and value pair and a version ID and are also used for access control. A region is specified for for where the bucket created by Amazon s3 will be stored, and is chosen based on optimal latency, minimal costs or regulatory address requirements.
 
-## Active Record Associations
+## Project Models and Database Relations
+In my application, there are four models that are used: Users, Profiles, Profile Services, and Services.
 
+For every User of the app, they are required to register with an email address, username, password and role (barber or buddy).
 
-## Database Relations
+A Profile model belongs to/has one User, and a User has one Profile.
+
+The Profile model references the User model and collects the user's pronouns, location, profile description and profile image.
+
+The Service model is joint with the Users model through a joint table called Profile Services, where a user Profile has many optional Profile Services, and Profile Services belongs to a user Profile.
+
+The Services model stores the service name and description that populates the app.
 
 
 ## Database Schema Design
 
 
+
 ## Project Management
+
+Trello has been used as the the primary project management system, where application tasks are split between phases: to do, pending, blocked and done. Prioritised tasks are to be completed first and the rest are worked through as necessary. Each task has multiple checklists and a timeframe for completion. As each task checklist is completed, the complete task is then shifted to "done".
+
+See below the project management process:
+
+<img src="docs/screenshots/Screen Shot 2021-08-19 at 3.35.56 pm.png">
+<img src="docs/screenshots/Screen Shot 2021-08-19 at 3.36.10 pm.png">
+<img src="docs/screenshots/Screen Shot 2021-08-19 at 3.36.46 pm.png">
+<img src="docs/screenshots/Screen Shot 2021-08-19 at 4.20.08 pm.png">
