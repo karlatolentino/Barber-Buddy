@@ -25,7 +25,7 @@ https://barber-buddy.herokuapp.com/
 https://github.com/karlatolentino/Barber-Buddy
 
 ## Purpose and Target Audience
-*Barber Buddy* is a networking marketplace application created for Barbers and Barber clients to find each other. to  As the creator of this application is a barber by trade, this concept was curated with the barber and client's direction in mind.
+*Barber Buddy* is a networking marketplace application created for Barbers and Barber clients to find each other. As the creator of this application is a barber by trade, this concept was curated with the barber and client's direction in mind.
 
 The *purpose* of this app is to help both the Barber and their Buddy establish a mutual connection with each other before they even enter the shop and sit in the chair for their haircut appointment. A common *problem* within the hairdressing industry is the amount of trial and error required for a client to find a hairdresser or barber that not only understands their needs, but also enjoy their conversations. As barbering is a highly transportable skill, many Barbers tend to not stay in the same place for a long time. This can prove to be quite frustrating for clients who have finally found the right barber.
 
