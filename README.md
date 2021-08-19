@@ -113,9 +113,11 @@ As an Apprentice Barber, I want to find clients with facial hair to help me prac
 
 As a Barber Client, I want to find a barber who specialises in how to cut and style curly hair as there are not many barbers in my area who can do this.
 
-As an Apprentice Barber, I seek out clients who are willing to come in for hair colouring services to  improve my hair colouring skills and procecss.
+As an Apprentice Barber, I seek out clients who are willing to come in for hair colouring services to  improve my hair colouring skills and process.
 
-As a Barbershop owner, I want to promote healthy and positive topics of conversations between my barbers and their clients by attracting a specific demographic of people into mny shop.
+As a Barber Client, I want to find a Barber who is down-to-earth and easily approachable in consultations so I feel comfortable discussing my needs. I have previously never enjoyed going to the barbershop growing up as I felt intimidated, but now with *Barber Buddy* I can seek out the right Barber for me!
+
+As a Barbershop owner, I want to promote healthy and positive topics of conversations between my barbers and their clients by attracting a specific demographic of people into my shop.
 
 ## Wireframes
 
