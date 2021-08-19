@@ -94,10 +94,28 @@ On the Barbers and Buddies index page, users are able to search for text that ma
 
 
 ## Tech Stack
-
+This application as been created using HTML, CSS, SCSS, Javascript and Ruby on Rails. This app is deployed on Heroku and GitHub.
 
 ## User Stories
+As a Barber, I want to find more clients who are willing to try new and unique hairstyles with me so I can maintain a specific client base to showcase on my haircut portfolio.
 
+As a Barber Client, I want to find a barber who specialises in hair art so I can display my eccentric style and personality.
+
+As a Barber, I want to find more clients who want to talk openly about art and music so we can share mutual topics of conversation in our appointments.
+
+As a Barber Client, I want to find a barber who understands me on a personal level and have a good relationship with while I get my haircut so I feel more comfortable in the shop.
+
+As a Barber, I want to find and contact clients with a specific style to utilise them as my model in my hair exhibition shows and demonstrations.
+
+As a Barber Client, I want a barber who is real and honest with me about my haircut expectations and is willing to suggest something cool to try out.
+
+As an Apprentice Barber, I want to find clients with facial hair to help me practice my shaving and beard trimming skills.
+
+As a Barber Client, I want to find a barber who specialises in how to cut and style curly hair as there are not many barbers in my area who can do this.
+
+As an Apprentice Barber, I seek out clients who are willing to come in for hair colouring services to  improve my hair colouring skills and procecss.
+
+As a Barbershop owner, I want to promote healthy and positive topics of conversations between my barbers and their clients by attracting a specific demographic of people into mny shop.
 
 ## Wireframes
 
