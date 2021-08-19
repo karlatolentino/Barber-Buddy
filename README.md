@@ -79,7 +79,7 @@ On the Barbers and Buddies index page, users are able to search for text that ma
 
 
 ## Sitemap
-<img src="../../docs/barber-buddy-sitemap.png">
+<img src="docs/barber-buddy-sitemap.png">
 
 ## Screenshots
 
