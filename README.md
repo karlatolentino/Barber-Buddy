@@ -31,7 +31,7 @@ As barbering is a highly transportable skill, many Barbers tend to not stay in t
 
 *Barber Buddy* is a networking marketplace application created for Barbers and Barber clients to find each other. to  As the creator of this application is a barber by trade, this concept was curated with the barber and client's direction in mind.
 
-The *purpose* of this app is to help both the Barber and their Buddy establish a mutual connection with each other before they even enter the shop and sit in the chair for their haircut appointment. A common *problem* within the hairdressing industry is the amount of trial and error required for a client to find a hairdresser or barber that not only understands their needs, but also enjoy their conversations.  Having the right vibe and conversations between the Barber and Buddy can make or break a client's experience within the barbershop, and affect clientele retention and relationships for the Barber. If a client or Buddy is satisfied with the quality of the cut, their experience may be dampened with conflicting interests with the Barber that is often discovered during their banter. As barbering is a highly transportable skill, many Barbers tend to not stay in the same place for a long time. This can prove to be quite frustrating for clients who have finally found the right barber and must restart the process of searching for a new barber who can fill their criteria needs.
+The *purpose* of this app is to help both the Barber and their Buddy establish a mutual connection with each other before they even enter the shop and sit in the chair for their haircut appointment. A common *problem* within the hairdressing industry is the amount of trial and error required for a client to find a hairdresser or barber that not only understands their needs, but also enjoy their conversations.  Having the right vibe and conversations between the Barber and Buddy can make or break a client's experience within the barbershop, and affect clientele retention and relationships for the Barber. If a client or Buddy is satisfied with the quality of the cut, their experience may be dampened with conflicting interests with the Barber that is often discovered during their appointment. As barbering is a highly transportable skill, many Barbers tend to not stay in the same place for a long time. This can prove to be quite frustrating for clients who have finally found the right barber and must restart the process of searching for a new barber who can fill their criteria needs.
 
 *Barber Buddy* aims to showcase the needs of both Barber and Buddy/clients in an informal manner. This networking application enables both parties to seek out relationships that are genuine by matching each other by their similar needs and interests. For example, if a Barber is looking to experiment with unconventional hairstyles, they may include that information on their profile when seeking for a Buddy. If a Buddy is looking for a Barber with a specific skill or specialisation, they may also include that information on their profile. A Barber or Buddy may even just describe their topic interests if all they require for a great haircut experience is great banter. Once both parties have created their profile on *Barber Buddy*, they can then begin the search for the perfect connection.
 
@@ -126,7 +126,19 @@ View Wireframes [here](docs/barber-buddy-wireframes.pdf)
 
 
 ## Third Party Services
+There are two main *third party services* that *Barber Buddy* utlises:
 
+1. Heroku PaaS (Platform as a Service):
+
+*Barber Buddy* is deployed on Heroku.
+
+Heroku is a cloud platform as a service that supports many different programming languages and assists developers in developing, running, and scaling applications. Applications that run on Heroku have a unique domain name that is utilised to route HTTP requests to the right application controller called "dyno". Individual dynos are spread across a dyno grid that holds many servers. Heroku's Git server manages application repo pushes from permitted users. Amazon's EC2 cloud computing platform hosts all Heroku services.
+
+2. Amazon s3 IaaS (Infrastructure as a Service):
+
+*Barber Buddy* implements an image uploading feature on it's user profile page. These images are stored on Amazon s3 for the internet.
+
+Amazon Simple Storage Service (Amazon s3) is designed to simplify internet computing. It is used to collect and store data anywhere and anytime on the internet. Developers are allowed access to identical data storage infrastructure that is used by Amazon that is highly scalable, fast and reliable. Amazon s3 have buckets that are containers for objects stored on its service, and is used to identify accounts responsible for data and storage transfer charges. These objects have a key and value pair and a version ID and are also used for access control. A region is specified for for where the bucket created by Amazon s3 will be stored, and is chosen based on optimal latency, minimal costs or regulatory address requirements.
 
 ## Active Record Associations
 
