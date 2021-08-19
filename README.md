@@ -73,7 +73,7 @@ Once a user is registered, they are able to access the Barbers and Buddies page 
 
 * **7. Search Filter**
 
-On the Barbers and Buddies index page, users are able to search for text that matches a user profile's description via a search form. For example, if a user types in 'music' in the search bar and hits th search button, it will list the profiles that match the query in their About Me desription. This will enable Barbers and Buddies to identify specific profiles of their liking.
+On the Barbers and Buddies index page, users are able to search for text that matches a user profile's description via a search form. For example, if a user types in 'music' in the search bar and hits the search button, it will list the profiles that match the query in their About Me desription. This will enable Barbers and Buddies to identify specific profiles of their liking.
 
 
 ## Sitemap
@@ -121,7 +121,19 @@ View Wireframes [here](docs/barber-buddy-wireframes.pdf)
 <img src="docs/barber-buddy-ERD.jpeg">
 
 ## Abstractions
+The high level components used in this application include the following:
 
+- Active Model: Model View Controller has an Active Model that represents the model interface. Ruby classes can be defined as a model and is significant in writing unique layers to persist in the database and into Rails.
+
+- Active Record: it is the Object Relational Mapping element of Rails. In order to maintain DRY (Don't Repeat Yourself) and clean code, it follows naming and convention in order to define the classes that are persisted in the database tables.
+
+- Action Pack: This acts as part of the Rails Model View Controller behaviour that carries out request, routing, handling and generating the view for the Web. In order to give back a response, it defines controllers that performs actions to render views.
+
+- Active Storage: facilitates the uploading of files to a cloud storage services. In this app, users are able to upload a profile picture onto their profile and are able to do so due to Amazon S3. Amazon S3 is the cloud storage service used to handle user data and attaches pictures to the Active Record objects. It is included in local disk-based service for testing, development and production.
+
+- Active Support: holds a compilation of standard library extensions and utility classes that are convenient and used conventionally in Rails.
+
+- Active Resource: Links together Representational State Transfer (REST) and business objects that are used to reveal ActiveRecord models with minimal code. Active Resource is efficient in creating APIs.
 
 ## Third Party Services
 There are two main *third party services* that *Barber Buddy* utlises:
@@ -172,7 +184,7 @@ The Services model stores the service name and description that populates the ap
 - Services Model
    - service_name :string
    - service_description :string
-   
+
 ## Project Management
 
 Trello has been used as the the primary project management system, where application tasks are split between phases: to do, pending, blocked and done. Prioritised tasks are to be completed first and the rest are worked through as necessary. Each task has multiple checklists and a timeframe for completion. As each task checklist is completed, the complete task is then shifted to "done".
