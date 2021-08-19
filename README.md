@@ -82,19 +82,16 @@ On the Barbers and Buddies index page, users are able to search for text that ma
 <img src="docs/barber-buddy-sitemap.png">
 
 ## Screenshots
-<img src="docs/screenshots/Screen Shot 2021-08-19 at 11.09.14 am.png">
-<img src="docs/screenshots/Screen Shot 2021-08-19 at 11.08.49 am.png">
-<img src="docs/screenshots/Screen Shot 2021-08-19 at 11.09.07 am.png">
+<img src="docs/screenshots/Screen Shot 2021-08-19 at 2.22.34 pm.png">
 <img src="docs/screenshots/Screen Shot 2021-08-19 at 11.09.28 am.png">
-<img src="docs/screenshots/Screen Shot 2021-08-19 at 11.09.43 am.png">
-<img src="docs/screenshots/Screen Shot 2021-08-19 at 11.09.49 am.png">
-<img src="docs/screenshots/Screen Shot 2021-08-19 at 11.10.42 am.png">
 <img src="docs/screenshots/Screen Shot 2021-08-19 at 11.14.24 am.png">
 <img src="docs/screenshots/Screen Shot 2021-08-19 at 11.14.30 am.png">
 
+View more screenshots [here](docs/screenshots)
+
 
 ## Tech Stack
-This application as been created using HTML, CSS, SCSS, Javascript and Ruby on Rails. This app is deployed on Heroku and GitHub.
+This application has been created using HTML, CSS, SCSS, Javascript and Ruby on Rails. This app is deployed on Heroku and GitHub.
 
 ## User Stories
 As a Barber, I want to find more clients who are willing to try new and unique hairstyles with me so I can maintain a specific client base to showcase on my haircut portfolio.
@@ -120,7 +117,7 @@ As a Barber Client, I want to find a Barber who is down-to-earth and easily appr
 As a Barbershop owner, I want to promote healthy and positive topics of conversations between my barbers and their clients by attracting a specific demographic of people into my shop.
 
 ## Wireframes
-View Wireframes [here](docs/barber-buddy-wireframes.pdf).
+View Wireframes [here](docs/barber-buddy-wireframes.pdf)
 
 ## ERD
 
