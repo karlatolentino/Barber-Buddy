@@ -24,7 +24,7 @@
 https://barber-buddy.herokuapp.com/
 
 ## GitHub Repository
-https://github.com/karlatolentino/T2A2-marketplace-project
+https://github.com/karlatolentino/Barber-Buddy
 
 ## Purpose and Target Audience
 As barbering is a highly transportable skill, many Barbers tend to not stay in the same place for a long time. This can prove to be quite frustrating for clients who have finally found the right barber.
@@ -82,6 +82,15 @@ On the Barbers and Buddies index page, users are able to search for text that ma
 <img src="docs/barber-buddy-sitemap.png">
 
 ## Screenshots
+<img src="docs/screenshots/Screen Shot 2021-08-19 at 11.09.14 am.png">
+<img src="docs/screenshots/Screen Shot 2021-08-19 at 11.08.49 am.png">
+<img src="docs/screenshots/Screen Shot 2021-08-19 at 11.09.07 am.png">
+<img src="docs/screenshots/Screen Shot 2021-08-19 at 11.09.28 am.png">
+<img src="docs/screenshots/Screen Shot 2021-08-19 at 11.09.43 am.png">
+<img src="docs/screenshots/Screen Shot 2021-08-19 at 11.09.49 am.png">
+<img src="docs/screenshots/Screen Shot 2021-08-19 at 11.10.42 am.png">
+<img src="docs/screenshots/Screen Shot 2021-08-19 at 11.14.24 am.png">
+<img src="docs/screenshots/Screen Shot 2021-08-19 at 11.14.30 am.png">
 
 
 ## Tech Stack
